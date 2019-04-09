@@ -1,0 +1,10 @@
+name: aa_audit
+title: AA_Audit
+username:
+account: jnt0009
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 849310
+bundleId: 1996688
+url: https://jnt0009.shinyapps.io/aa_audit/
+when: 1554781955.23413

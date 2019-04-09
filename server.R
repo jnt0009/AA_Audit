@@ -67,7 +67,7 @@ shinyServer(function(input, output,session) {
       tags$p("If you don't have your Web Services Username and shared secret head over to Adobe Analytics > Admin > Webservices"),
       tags$p("This is site is built using the RSiteCatalyst and maintained by Jamarius Taylor"),
       tags$a(href = "https://randyzwitch.com/rsitecatalyst/","RSiteCatalyst"),
-      tags$a(href = "")
+      tags$a(href = "https://github.com/jnt0009/AA_Audit/", "Github")
     )
   })
   
@@ -105,3 +105,6 @@ shinyServer(function(input, output,session) {
   )
   
 })
+
+
+#rsconnect::deployApp("C:/Users/Jamarius Taylor/Desktop/Rshiny apps/AA_Audit",appTitle="AA_Audit")

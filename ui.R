@@ -1,10 +1,10 @@
 library(shiny)
 shinyUI(fluidPage(
   # Application title
-  titlePanel("TBD"),
+  titlePanel("AA_Audit"),
   sidebarLayout(
     sidebarPanel(
-      textInput("uw","UsernameWeb Services Username"),
+      textInput("uw","Web Services Username"),
       textInput("pw","Shared Secret"),
       actionButton("first","Authenticate"),
       actionButton("second","Fetch Settings"),
@@ -14,7 +14,6 @@ shinyUI(fluidPage(
       downloadLink('downloadData', 'Download')
     ),
   mainPanel(
-    tags$div("center"),
     tabsetPanel(
       tabPanel("Instructions",uiOutput("inst")),
       tabPanel("props",dataTableOutput("prop")),
